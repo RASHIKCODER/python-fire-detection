@@ -1,0 +1,34 @@
+# 🔥 AI Fire Detection – Multi-Zone Industrial Monitoring
+
+A real-time, multi-zone AI fire detection system built using **YOLOv8**, **OpenCV**, and **MQTT**, designed for **industrial monitoring and early-warning applications**.
+
+The system allows operators to define multiple Regions of Interest (ROIs) on a live camera feed and independently monitor each zone for fire events. Each zone publishes its own **FIRE / CLEAR** status via MQTT using persistence-based logic to reduce false alarms.
+
+> ⚠️ This project is intended for monitoring and alerting purposes only and is **not a certified fire-safety or life-critical system**.
+
+---
+
+## 🚀 Features
+
+- Real-time fire detection using a custom YOLOv8 model  
+- Multiple user-defined detection zones (ROI)  
+- Zone-wise state machine (`SAFE → FIRE → CLEAR`)  
+- Fire persistence validation to minimize false positives  
+- MQTT-based integration for IoT / dashboards / automation  
+- Supports laptop webcam and IP/CCTV (RTSP) cameras  
+- Designed for industrial trials, demos, and monitoring systems  
+
+---
+
+## 🏭 Typical Use Cases
+
+- Factory and warehouse fire monitoring  
+- Industrial machine area surveillance  
+- Smart factory dashboards  
+- IoT-based alert and notification systems  
+- R&D and proof-of-concept deployments  
+
+---
+
+## 📁 Project Structure
+
