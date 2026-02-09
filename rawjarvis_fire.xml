@@ -1,0 +1,21 @@
+<Response>
+    <Say voice="alice" language="en-IN">
+        Attention please.
+        This is Jarvis, your safety assistant.
+    </Say>
+
+    <Pause length="1"/>
+
+    <Say voice="alice" language="hi-IN">
+        Dhyan dijiye.
+        Factory ke ek kshetra mein aag lagne ki suchna hai.
+        Kripya turant karvai karein.
+    </Say>
+
+    <Pause length="1"/>
+
+    <Say voice="alice" language="en-IN">
+        Fire detected.
+        Immediate action required.
+    </Say>
+</Response>
