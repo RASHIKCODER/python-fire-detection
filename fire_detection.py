@@ -15,10 +15,10 @@ FIRE_CONFIRM_TIME = 1        # seconds fire must persist
 CLEAR_DELAY = 2.0              # seconds before clearing fire
 
 # MQTT
-BROKER = "mqtt.sar-analytic.in"
+BROKER = "m"
 PORT = 1883
-USERNAME = "mqtt"
-PASSWORD = "mqtt"
+USERNAME = ""
+PASSWORD = ""
 
 # =========================================================
 # ===================== MODEL =============================
@@ -189,3 +189,4 @@ cap.release()
 client.loop_stop()
 client.disconnect()
 cv2.destroyAllWindows()
+
